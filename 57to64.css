@@ -1,0 +1,398 @@
+/* التكليف الاول */
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px auto;
+    gap: 20px;
+}
+
+.grid div {
+    background-color: #5c9caa;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    counter-increment: number;
+
+
+}
+
+.grid div::before {
+    content: "Element" counter(number);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+} */
+
+
+
+
+
+
+
+/* التكليف الثانى */
+/* .layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "head head head head head head head head head head ";
+    height: 100vh;
+    grid-template-areas: "head head" "section aside" "footer footer";
+
+}
+
+header {
+    background-color: rgb(177, 177, 215);
+    grid-area: head;
+    padding: 20px;
+}
+
+header::before {
+    content: "Header";
+    padding: 10px;
+    color: white;
+}
+
+section {
+    background-color: rgb(179, 65, 65);
+    padding: 20px;
+    grid-area: section;
+}
+
+section::before {
+    content: "Section";
+    padding: 10px;
+}
+
+
+aside {
+    background-color: #d6aaaa;
+    padding: 20px;
+    grid-area: aside;
+}
+
+aside::before {
+    content: "Aside";
+    padding: 10px;
+}
+
+footer {
+    background-color: green;
+    padding: 20px;
+    grid-area: footer;
+}
+
+footer::before {
+    content: "Footer";
+    padding: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* التكليف الثالث */
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-template-rows: 1fr auto;
+    gap: 15px;
+}
+
+.grid div {
+    background-color: rgb(136, 47, 47);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+} */
+
+
+
+
+
+
+
+
+/* التكليف الرابع */
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.grid div {
+    color: white;
+    background-color: rgb(146, 146, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    order: 8;
+    grid-column: span 3;
+}
+
+.two {
+    order: 2;
+    grid-column: span 2;
+}
+
+.three {
+    order: 3;
+}
+
+.four {
+    order: 4;
+}
+
+.five {
+    order: 5;
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+.six {
+    order: 6;
+}
+
+.seven {
+    order: 7;
+}
+
+.eight {
+    order: 0;
+    grid-column: span 3;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* التكليف الخامس */
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    align-content: space-between;
+    gap: 15px;
+
+}
+
+.grid div {
+    color: white;
+    background-color: #E91E63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+} */
+
+/* التكليف السادس */
+.page {
+    background-color: #ddd;
+    width: 1000px;
+    padding: 50px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 15px;
+}
+
+p {
+    padding: 0 0 0 10px;
+}
+
+.b {
+    font-weight: bolder;
+    padding: 0 0 0 10px;
+}
+
+h3 {
+    padding: 0px 0 0 10px;
+}
+
+h5 {
+    color: #009688;
+    padding: 0 0 0 10px;
+
+}
+
+
+.page div {
+    background-color: white;
+    position: relative;
+}
+
+.page div::after {
+    content: "";
+    background-color: red;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.shady_black,
+.mahmoud_black,
+.ibrahim_black {
+    color: white !important;
+    background-color: black !important;
+}
+
+.osama {
+    grid-column: span 2;
+}
+
+.osama ::before {
+    content: ",,";
+    background-color: white;
+    color: #009688;
+    width: fit-content;
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.ahmed::before {
+    content: ",,";
+    background-color: white;
+    color: #009688;
+    width: fit-content;
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+
+.shady_black {
+    grid-row: span 3;
+}
+
+.shady_black::before {
+    content: ",,";
+    background-color: black;
+    color: white;
+    width: fit-content;
+    font-size: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 3px;
+}
+
+.mohamed {
+    grid-row: span 2;
+}
+
+.mohamed::before {
+    content: ",,";
+    background-color: white;
+    color: #009688;
+    width: fit-content;
+    font-size: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 3px;
+}
+
+.mahmoud_black {
+    grid-column: span 2;
+}
+
+.mahmoud_black::before {
+    content: ",,";
+    background-color: black;
+    color: white;
+    width: fit-content;
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.ezz {
+    grid-column: span 2;
+}
+
+.ezz::before {
+    content: ",,";
+    background-color: white;
+    color: #009688;
+    width: fit-content;
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.mohamedsayed::before,
+.eman::before,
+.gamal::before {
+    content: ",,";
+    background-color: white;
+    color: #009688;
+    width: fit-content;
+    font-size: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+
+.ibrahim_black::before {
+    content: ",,";
+    background-color: black;
+    color: white;
+    width: fit-content;
+    font-size: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
